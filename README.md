@@ -1,11 +1,11 @@
 # TanVIPER 一个使用VIPER架构的Demo
-原文链接: [探究在iOS开发中实现VIPER架构]()
+原文链接: [探究在iOS开发中实现VIPER架构](http://tangent.gift/2016/12/07/探究在iOS开发中实现VIPER架构/)
 
 # 探究在iOS开发中实现VIPER架构
 ## 前言 
 在软件开发中，架构是至关重要的一部分，就好比盖房子需要基本的钢筋石桩等骨架，常听到的架构有`MVC`、`MVP`、`MVVM`、`VIPER`等，其中，`MVC`是我们最常用的软件架构模式，而苹果的整个API框架都是使用`MVC`作为架构的，所以我们会看到一些iOS的API中有这些类:`UIXXXViewController`、`UIXXXView`，而现在比较兴起的架构当属`MVP`和`MVVM`，我个人觉得这它们是非常相似的，但在之前我使用第三方函数式、响应式框架`RxSwift`或`ReactiveCocoa`去实现`MVP`或`MVVM`架构时，我自认为，`MVP`中的`Presenter`专注于事件、数据的转换，成为`View`层及`Model`层的一条流通管道，而`MVVM`中的`ViewModel`更像是一个装有视图显示数据的，并带有一些显示逻辑处理的分层，然后我们可以将`ViewModel`中的显示数据与`View`中的视图进行响应式绑定（个人观点，若有误，望各位纠正）。在现在的开发中，我也是使用`MVP`或`MVVM`架构。而`VIPER`架构，一开始我是只听过其名，并未深入了解，也并未实战使用，直到某个契机我看到大神[@罗琦aidenluo](http://weibo.com/u/1840543654)的iOS架构讲解视频，了解到了`VIPER`架构，受益匪浅，这篇文章是我对`VIPER`学习以及实践的总结，主要简单介绍`VIPER`架构以及其怎样使用`Swift3.0`语言在iOS平台上实现。
 
-文章所对应的代码我已经放到了我的Github上[]()，欢迎Click入~
+文章所对应的代码我已经放到了我的Github上[TanVIPER](https://github.com/TangentW/TanVIPER)，欢迎Click入~
 ## 什么是 VIPER
 传统的`MVC`架构中，我们都知道，其`Controller(控制器)`层接纳了太多的任务，当开发不断进行，其内部的业务逻辑逐渐积累，最后则会变得臃肿不堪，不便于后期的调试测试以及多人协助，所以，我们需要寻找减轻`Controller`层负担的方法，而`VIPER`架构其实是将`Controller`再细分成三层，分别是`View`、`Interactor`、`Presenter`，已达到减轻`Controller`层负担的作用。
 
@@ -764,6 +764,6 @@ class TwoPresenter: Presenter {
 
 本人为iOS开发菜鸟一只，若文章中某些话语不严谨或出现技术性错误，还请各位提点意见，也欢迎各位在评论区进行讨论，在这里也祝大家冬日愉快~
 
-文章中实例的Github链接：[]()
+文章中实例的Github链接：[TanVIPER](https://github.com/TangentW/TanVIPER)
 
 
