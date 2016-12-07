@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Argo (4.1.0):
+    - Runes (>= 4.0.0)
+  - Curry (3.0.0)
+  - Moya (8.0.0-beta.4):
+    - Moya/Core (= 8.0.0-beta.4)
+  - Moya/Core (8.0.0-beta.4):
+    - Alamofire (~> 4.0)
+    - Result (~> 3.0)
+  - Result (3.0.0)
+  - Runes (4.0.1)
+  - SnapKit (3.0.2)
+
+DEPENDENCIES:
+  - Argo (~> 4.1.0)
+  - Curry (~> 3.0.0)
+  - Moya (~> 8.0.0-beta.4)
+  - SnapKit (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Argo: 846f1637e85257e34bfc351b5031f19bfca7555c
+  Curry: eb3d2c75aec678b3cc7fb2729d2ad6dd121531d1
+  Moya: bad6f72ec40661f09a8cd85ab470226d2795a485
+  Result: 1b3e431f37cbcd3ad89c6aa9ab0ae55515fae3b6
+  Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+
+PODFILE CHECKSUM: a797d02128f7cf490adc87d69688f537cf1f44c7
+
+COCOAPODS: 1.1.1

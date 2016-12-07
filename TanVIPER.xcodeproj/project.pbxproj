@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4938292E6D857240ABA36371 /* Pods_TanVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD64B7D0428082E3846B1A4 /* Pods_TanVIPER.framework */; };
 		BADC5BC11DF66C2300CE1ECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BC01DF66C2300CE1ECE /* AppDelegate.swift */; };
 		BADC5BC31DF66C2300CE1ECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BC21DF66C2300CE1ECE /* ViewController.swift */; };
-		BADC5BC61DF66C2300CE1ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC5BC41DF66C2300CE1ECE /* Main.storyboard */; };
 		BADC5BC81DF66C2300CE1ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADC5BC71DF66C2300CE1ECE /* Assets.xcassets */; };
 		BADC5BCB1DF66C2300CE1ECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC5BC91DF66C2300CE1ECE /* LaunchScreen.storyboard */; };
+		BADC5BD31DF66CA300CE1ECE /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BD21DF66CA300CE1ECE /* Entity.swift */; };
+		BADC5BD51DF66CB500CE1ECE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BD41DF66CB500CE1ECE /* Config.swift */; };
+		BADC5BD71DF6D44200CE1ECE /* OneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BD61DF6D44200CE1ECE /* OneView.swift */; };
+		BADC5BD91DF6D45600CE1ECE /* OnePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BD81DF6D45600CE1ECE /* OnePresenter.swift */; };
+		BADC5BDB1DF6D46700CE1ECE /* OneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BDA1DF6D46700CE1ECE /* OneInteractor.swift */; };
+		BADC5BE01DF712E800CE1ECE /* TwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BDF1DF712E800CE1ECE /* TwoView.swift */; };
+		BADC5BE21DF712F900CE1ECE /* TwoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BE11DF712F900CE1ECE /* TwoInteractor.swift */; };
+		BADC5BE41DF7130A00CE1ECE /* TwoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC5BE31DF7130A00CE1ECE /* TwoPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CD64B7D0428082E3846B1A4 /* Pods_TanVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TanVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CAB89470E576FEA4026746 /* Pods-TanVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanVIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TanVIPER/Pods-TanVIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		8BBCB99C2E91A10F08EF95AA /* Pods-TanVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TanVIPER.release.xcconfig"; path = "Pods/Target Support Files/Pods-TanVIPER/Pods-TanVIPER.release.xcconfig"; sourceTree = "<group>"; };
 		BADC5BBD1DF66C2300CE1ECE /* TanVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADC5BC01DF66C2300CE1ECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BADC5BC21DF66C2300CE1ECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BADC5BC51DF66C2300CE1ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BADC5BC71DF66C2300CE1ECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BADC5BCA1DF66C2300CE1ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BADC5BCC1DF66C2300CE1ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADC5BD21DF66CA300CE1ECE /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		BADC5BD41DF66CB500CE1ECE /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		BADC5BD61DF6D44200CE1ECE /* OneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneView.swift; sourceTree = "<group>"; };
+		BADC5BD81DF6D45600CE1ECE /* OnePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePresenter.swift; sourceTree = "<group>"; };
+		BADC5BDA1DF6D46700CE1ECE /* OneInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneInteractor.swift; sourceTree = "<group>"; };
+		BADC5BDF1DF712E800CE1ECE /* TwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoView.swift; sourceTree = "<group>"; };
+		BADC5BE11DF712F900CE1ECE /* TwoInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoInteractor.swift; sourceTree = "<group>"; };
+		BADC5BE31DF7130A00CE1ECE /* TwoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4938292E6D857240ABA36371 /* Pods_TanVIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11A552EAD2C9D479467DC567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD64B7D0428082E3846B1A4 /* Pods_TanVIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BADC5BB41DF66C2300CE1ECE = {
 			isa = PBXGroup;
 			children = (
 				BADC5BBF1DF66C2300CE1ECE /* TanVIPER */,
 				BADC5BBE1DF66C2300CE1ECE /* Products */,
+				CB7B0A9611B8569CD4D5459C /* Pods */,
+				11A552EAD2C9D479467DC567 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,46 @@
 		BADC5BBF1DF66C2300CE1ECE /* TanVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				BADC5BDE1DF712D600CE1ECE /* Two */,
+				BADC5BDD1DF712CE00CE1ECE /* One */,
 				BADC5BC01DF66C2300CE1ECE /* AppDelegate.swift */,
 				BADC5BC21DF66C2300CE1ECE /* ViewController.swift */,
-				BADC5BC41DF66C2300CE1ECE /* Main.storyboard */,
+				BADC5BD21DF66CA300CE1ECE /* Entity.swift */,
+				BADC5BD41DF66CB500CE1ECE /* Config.swift */,
 				BADC5BC71DF66C2300CE1ECE /* Assets.xcassets */,
 				BADC5BC91DF66C2300CE1ECE /* LaunchScreen.storyboard */,
 				BADC5BCC1DF66C2300CE1ECE /* Info.plist */,
 			);
 			path = TanVIPER;
+			sourceTree = "<group>";
+		};
+		BADC5BDD1DF712CE00CE1ECE /* One */ = {
+			isa = PBXGroup;
+			children = (
+				BADC5BD61DF6D44200CE1ECE /* OneView.swift */,
+				BADC5BD81DF6D45600CE1ECE /* OnePresenter.swift */,
+				BADC5BDA1DF6D46700CE1ECE /* OneInteractor.swift */,
+			);
+			name = One;
+			sourceTree = "<group>";
+		};
+		BADC5BDE1DF712D600CE1ECE /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				BADC5BDF1DF712E800CE1ECE /* TwoView.swift */,
+				BADC5BE11DF712F900CE1ECE /* TwoInteractor.swift */,
+				BADC5BE31DF7130A00CE1ECE /* TwoPresenter.swift */,
+			);
+			name = Two;
+			sourceTree = "<group>";
+		};
+		CB7B0A9611B8569CD4D5459C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78CAB89470E576FEA4026746 /* Pods-TanVIPER.debug.xcconfig */,
+				8BBCB99C2E91A10F08EF95AA /* Pods-TanVIPER.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BADC5BCF1DF66C2300CE1ECE /* Build configuration list for PBXNativeTarget "TanVIPER" */;
 			buildPhases = (
+				205031C97240497099D7BD6F /* [CP] Check Pods Manifest.lock */,
 				BADC5BB91DF66C2300CE1ECE /* Sources */,
 				BADC5BBA1DF66C2300CE1ECE /* Frameworks */,
 				BADC5BBB1DF66C2300CE1ECE /* Resources */,
+				9FFABFBA7BA9E5DA8A042832 /* [CP] Embed Pods Frameworks */,
+				6118EEC69B8F193FB1A809EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,11 +190,58 @@
 			files = (
 				BADC5BCB1DF66C2300CE1ECE /* LaunchScreen.storyboard in Resources */,
 				BADC5BC81DF66C2300CE1ECE /* Assets.xcassets in Resources */,
-				BADC5BC61DF66C2300CE1ECE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		205031C97240497099D7BD6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6118EEC69B8F193FB1A809EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TanVIPER/Pods-TanVIPER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFABFBA7BA9E5DA8A042832 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TanVIPER/Pods-TanVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BADC5BB91DF66C2300CE1ECE /* Sources */ = {
@@ -138,21 +249,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				BADC5BC31DF66C2300CE1ECE /* ViewController.swift in Sources */,
+				BADC5BE21DF712F900CE1ECE /* TwoInteractor.swift in Sources */,
+				BADC5BD51DF66CB500CE1ECE /* Config.swift in Sources */,
 				BADC5BC11DF66C2300CE1ECE /* AppDelegate.swift in Sources */,
+				BADC5BD91DF6D45600CE1ECE /* OnePresenter.swift in Sources */,
+				BADC5BD31DF66CA300CE1ECE /* Entity.swift in Sources */,
+				BADC5BE01DF712E800CE1ECE /* TwoView.swift in Sources */,
+				BADC5BE41DF7130A00CE1ECE /* TwoPresenter.swift in Sources */,
+				BADC5BD71DF6D44200CE1ECE /* OneView.swift in Sources */,
+				BADC5BDB1DF6D46700CE1ECE /* OneInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BADC5BC41DF66C2300CE1ECE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BADC5BC51DF66C2300CE1ECE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BADC5BC91DF66C2300CE1ECE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -257,6 +368,7 @@
 		};
 		BADC5BD01DF66C2300CE1ECE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CAB89470E576FEA4026746 /* Pods-TanVIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9PA6Z533LV;
@@ -270,6 +382,7 @@
 		};
 		BADC5BD11DF66C2300CE1ECE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBCB99C2E91A10F08EF95AA /* Pods-TanVIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9PA6Z533LV;
@@ -300,6 +413,7 @@
 				BADC5BD11DF66C2300CE1ECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
